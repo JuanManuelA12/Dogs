@@ -1,0 +1,69 @@
+.container-img {
+    
+  height: 300px;
+  width: 280px;
+  border-radius: 4px;
+  margin-top: 8%;
+  margin-left: 7%;
+  
+}
+.container-amarillo {
+  display: flex;
+  height: 420px;
+  width: 730px;
+  border-radius: 4px;
+  margin-top: 8%;
+  margin-left: 22%;
+  
+}
+.img-perro {
+  height: 500px;
+  width: 400;
+  display: flex;
+display: flow-root;
+overflow: hidden;
+ align-self: baseline;
+  border-radius: 50px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin: 10px;
+  margin-left: auto;
+  float: right;
+ 
+}
+
+.back {
+  background-color: #6D8BE8;
+  border-radius: 40px;
+  border: 1px solid;
+  border-color: #6D8BE8;
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-weight: 800;
+  font-size: 11px;
+  cursor: pointer;
+}
+.back:hover{
+  color: yellow;
+}
+
+.container-desc-img {
+  display: flex; 
+
+
+}
+.descripcion-perro {
+  height: 375px;
+  width: 450px;
+ padding-top: 30px;
+ margin-block-end: 15px;
+  font-size: x-large;
+  background-color: burlywood;
+}
+
+.img-perro:hover {
+  
+color: yellow;
+}

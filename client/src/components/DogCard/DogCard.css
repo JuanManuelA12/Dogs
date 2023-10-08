@@ -1,0 +1,55 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 380px;
+  width: 220px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.titulo-dog-container {
+  flex-direction: column;
+  width: 200px;
+  display: flex;
+  
+}
+
+.titulo-card {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding-top: 1px;
+  color: white 
+}
+
+.temperamento-card {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  color: rgb(92, 92, 92)
+}
+
+.img-dog {
+  height: 145px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 9px;
+  padding-top: 3px;
+
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+.img-dog:hover{
+  color:yellow
+}
+
+.img-dog:hover {
+  background-color: #6D8BE8;
+  box-shadow: 0 0 10px  #6D8BE8, 0 0 10px  #6D8BE8, 0 0 10px  #6D8BE8 ;
+  transition-delay: 3ms;
+  
+  
+}

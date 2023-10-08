@@ -1,0 +1,24 @@
+.boton-paginador {
+    border: 2px solid;
+    border: white;
+    background-color: #DC472F;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.boton-paginador:active {
+    background-color: black;
+    color: white;
+}
+
+.boton-paginador:hover:not(.active) {
+    background-color: #6D8BE8;
+}
+
+.div-paginador {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
